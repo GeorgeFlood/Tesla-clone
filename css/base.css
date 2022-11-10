@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;700&display=swap");
+*::before,
+*::after,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+}
+
+.desktopNav {
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  top: -4rem;
+}
+.desktopNav__products {
+  display: flex;
+  margin-left: 10rem;
+  font-size: 1.5rem;
+  list-style: none;
+  font-weight: 500;
+  color: #000;
+}
+.desktopNav__products > * {
+  margin-left: 3.2rem;
+}
+.desktopNav__options {
+  display: flex;
+  font-size: 1.5rem;
+  list-style: none;
+  font-weight: 500;
+  color: #000;
+}
+.desktopNav__options > * {
+  margin-left: 3.2rem;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.modelY {
+  height: 100vh;
+  background-image: url(../images/Tesla-Model-Y-esterni.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.modelY__header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 13rem;
+}
+.modelY__title {
+  font-size: 4.5rem;
+  font-weight: 500;
+}
+.modelY__para {
+  margin-top: 0.9rem;
+  font-size: 1.6rem;
+  font-weight: 200;
+}
+.modelY__span {
+  border-bottom: 1px solid black;
+}/*# sourceMappingURL=base.css.map */

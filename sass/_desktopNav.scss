@@ -1,0 +1,42 @@
+.desktopNav {
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  top: -4rem;
+
+  &__logo {
+  }
+
+  &__products {
+    display: flex;
+    margin-left: 10rem;
+    font-size: 1.5rem;
+    list-style: none;
+    font-weight: 500;
+    color: #000;
+
+    & > * {
+      margin-left: 3.2rem;
+    }
+  }
+
+  &__options {
+    display: flex;
+    font-size: 1.5rem;
+    list-style: none;
+    font-weight: 500;
+    color: #000;
+
+    & > * {
+      margin-left: 3.2rem;
+    }
+  }
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #000;
+}
