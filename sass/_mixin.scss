@@ -1,0 +1,37 @@
+@mixin DesktopDefault($image) {
+  height: 100vh;
+  background-image: url($image);
+  background-position: center;
+  background-size: cover;
+}
+
+@mixin DesktopTitle {
+  font-size: 4.5rem;
+  font-weight: 500;
+}
+
+@mixin DesktopPara {
+  margin-top: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: 200;
+}
+
+@mixin DesktopHeader {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 13rem;
+}
+
+@mixin button($color) {
+  background-color: $color;
+  font-size: 1.7rem;
+  width: 27rem;
+  height: 4rem;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

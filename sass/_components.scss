@@ -1,0 +1,11 @@
+.btn--light {
+  @include button(#3f4043);
+  color: #fff;
+  margin-right: 0.5rem;
+}
+
+.btn--dark {
+  @include button(#eaeaea);
+  color: #000;
+  margin-left: 0.5rem;
+}
