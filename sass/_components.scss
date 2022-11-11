@@ -1,11 +1,13 @@
 .btn--light {
   @include button(#3f4043);
   color: #fff;
-  margin-right: 0.5rem;
+  margin-right: 1rem;
+  animation: btnLeft 0.6s ease-in-out 1.7s backwards;
 }
 
 .btn--dark {
-  @include button(#eaeaea);
+  @include button(rgba(#eaeaea, 0.8));
   color: #000;
-  margin-left: 0.5rem;
+  margin-left: 1rem;
+  animation: btnRight 0.6s ease-in-out 1.7s backwards;
 }

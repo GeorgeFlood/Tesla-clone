@@ -1,27 +1,26 @@
 .modelY {
   @include DesktopDefault("../images/Tesla-Model-y-esterni.jpeg");
+}
+.section__header {
+  @include DesktopHeader;
+}
 
-  &__header {
-    @include DesktopHeader;
-  }
+.title {
+  @include DesktopTitle;
+}
 
-  &__title {
-    @include DesktopTitle;
-  }
+.para {
+  @include DesktopPara;
+}
 
-  &__para {
-    @include DesktopPara;
-  }
+.span {
+  border-bottom: 1px solid black;
+}
 
-  &__span {
-    border-bottom: 1px solid black;
-  }
-
-  &__footer {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    top: 80vh;
-  }
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 80vh;
 }

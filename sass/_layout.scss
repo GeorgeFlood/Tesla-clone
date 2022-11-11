@@ -14,3 +14,36 @@ html {
 body {
   font-family: "Figtree", sans-serif;
 }
+
+.section__header {
+  @include DesktopHeader;
+}
+
+.title {
+  @include DesktopTitle;
+  animation: title 0.8s ease-in-out 0.8s backwards;
+}
+
+.para {
+  @include DesktopPara;
+  animation: title 0.8s ease-in-out 1.6s backwards;
+}
+
+.span {
+  border-bottom: 1px solid black;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.additional--info {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  font-style: italic;
+  color: rgba(#000, 0.7);
+  animation: span 0.6s ease-in-out 2s backwards;
+}
