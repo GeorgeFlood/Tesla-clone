@@ -11,3 +11,11 @@
   margin-left: 1rem;
   animation: btnRight 0.6s ease-in-out 1.7s backwards;
 }
+
+.modelY__footer--btns {
+  display: flex;
+
+  @include respond(phone) {
+    flex-direction: column;
+  }
+}
