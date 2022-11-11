@@ -1,3 +1,16 @@
 .model3 {
   @include DesktopDefault("../images/Tesla_Model_3_2021-01@2x.jpeg");
+
+  &--additional {
+    font-style: normal;
+    padding-bottom: 0.2px;
+    border-bottom: 1px solid black;
+  }
+}
+
+.arrowDown {
+  margin-top: 1.2rem;
+  height: 1.7rem;
+  width: 1.7rem;
+  animation: arrowDown 2s ease-in-out 0.2s infinite;
 }
