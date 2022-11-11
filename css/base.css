@@ -16,7 +16,7 @@
 }
 
 .btn--dark {
-  background-color: rgba(234, 234, 234, 0.8);
+  background-color: rgba(234, 234, 234, 0.9);
   font-size: 1.6rem;
   font-weight: 200;
   width: 26rem;
@@ -253,6 +253,20 @@ a:visited {
 .model3 {
   height: 100vh;
   background-image: url("../images/Tesla_Model_3_2021-01@2x.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.modelS {
+  height: 100vh;
+  background-image: url("../images/Homepage-Model-S-Desktop-RHD.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.Solar {
+  height: 100vh;
+  background-image: url("../images/_25-Hero-D.jpeg");
   background-position: center;
   background-size: cover;
 }/*# sourceMappingURL=base.css.map */
