@@ -39,6 +39,10 @@ body {
   flex-direction: column;
   align-items: center;
   top: 75vh;
+
+  @include respond(tab-port) {
+    top: 80vh;
+  }
 }
 
 .additional--info {
