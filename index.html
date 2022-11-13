@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/base.css" />
+    <script src="app.js" defer></script>
     <title>Tesla | clone</title>
   </head>
   <body>
@@ -26,7 +27,7 @@
         <a href="#"><li>Support</li></a>
         <a href="#"><li>Shop</li></a>
         <a href="#"><li>Account</li></a>
-        <a href="#"><li>Menu</li></a>
+        <a href="#" class="menuBtn"><li>Menu</li></a>
       </div>
     </nav>
 
@@ -36,9 +37,14 @@
       </div>
 
       <div>
-        <button class="mobileNav__btn">Menu</button>
+        <button class="mobileNav__btn menuBtn">Menu</button>
       </div>
     </nav>
+
+    <div class="menu--">
+      <div class="menu-options"></div>
+      <div class="menu--blur"></div>
+    </div>
 
     <section class="modelY">
       <div class="section__header">

@@ -1,0 +1,42 @@
+.menu-- {
+  transform: translateX(300px);
+  opacity: 0;
+  transition: transform 0.3s ease-in-out, opacity 0.7s ease-in-out;
+}
+
+.menu--active {
+  display: flex;
+  position: fixed;
+  align-items: center;
+
+  width: 100%;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+  z-index: 11;
+  overflow: hidden;
+  transform: translateX(0px);
+  opacity: 1;
+  height: 100vh;
+  transition: transform 0.3s ease-in-out, opacity 0.7s ease-in-out;
+}
+
+.menu--options {
+}
+
+.menu--blur {
+  width: 22%;
+  height: 100%;
+  background-color: white;
+  z-index: 100;
+  box-shadow: 0rem 0.3rem 1rem rgba(#000, 0.4);
+  margin-left: auto;
+  transition: transform 0.3s ease-in-out, opacity 0.7s ease-in-out;
+
+  @include respond(tab-port) {
+    width: 43%;
+  }
+
+  @include respond(phone) {
+    width: 82%;
+  }
+}
