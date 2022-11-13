@@ -43,4 +43,8 @@ a:link,
 a:visited {
   text-decoration: none;
   color: #000;
+
+  &:hover {
+    background-color: rgba(grey, 0.2);
+  }
 }

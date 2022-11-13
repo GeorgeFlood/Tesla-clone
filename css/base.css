@@ -68,6 +68,13 @@ body {
           animation: span 0.6s ease-in-out 2s backwards;
 }
 
+.scroll--container {
+  height: 100vh;
+  overflow-y: scroll;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+
 .btn--light {
   background-color: #3f4043;
   font-size: 1.6rem;
@@ -274,6 +281,10 @@ a:visited {
   text-decoration: none;
   color: #000;
 }
+a:link:hover,
+a:visited:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+}
 
 .mobileNav {
   display: none;
@@ -324,7 +335,7 @@ a:visited {
 .menu--blur {
   width: 22%;
   height: 100%;
-  background-color: white;
+  background-color: #ffffff;
   z-index: 100;
   box-shadow: 0rem 0.3rem 1rem rgba(0, 0, 0, 0.4);
   margin-left: auto;
@@ -346,6 +357,8 @@ a:visited {
   background-image: url("../images/Tesla-Model-y-esterni.jpeg");
   background-position: center;
   background-size: cover;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 
 .model3 {
@@ -353,6 +366,8 @@ a:visited {
   background-image: url("../images/Tesla_Model_3_2021-01@2x.jpeg");
   background-position: center;
   background-size: cover;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 .model3--additional {
   font-style: normal;
@@ -373,6 +388,8 @@ a:visited {
   background-image: url("../images/Homepage-Model-S-Desktop-RHD.jpeg");
   background-position: center;
   background-size: cover;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 
 .Solar {
@@ -380,6 +397,8 @@ a:visited {
   background-image: url("../images/_25-Hero-D.jpeg");
   background-position: center;
   background-size: cover;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 
 .modelX {
@@ -387,6 +406,8 @@ a:visited {
   background-image: url("../images/Homepage-Model-X-Desktop-RHD.jpeg");
   background-position: center;
   background-size: cover;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 
 .accessories {
