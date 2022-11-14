@@ -412,4 +412,33 @@ a:visited:hover {
 
 .accessories {
   background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  height: 100vh;
+}
+.accessories__img {
+  height: 55rem;
+  width: 55rem;
+}
+.accessories__title {
+  top: -7rem;
+}
+.accessories__btn {
+  background-color: #000000;
+  border-radius: 4px;
+}
+.accessories__nav {
+  margin-top: 9rem;
+  display: flex;
+  list-style: none;
+  font-size: 1.3rem;
+}
+.accessories__nav > * {
+  margin-left: 1.5rem;
 }/*# sourceMappingURL=base.css.map */
